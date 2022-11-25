@@ -1,0 +1,19 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Chrome-app",
+    "description": "Extension Description",
+    "developer_name": "Lemon",
+    "icon": "images/browser.svg",
+    "options": {
+      "query_debounce": 0.1
+    },
+    "preferences": [
+      {
+        "id": "Chrome",
+        "type": "keyword",
+        "name": "Chrome-app",
+        "description": "extension",
+        "default_value": "cpa"
+      }
+    ]
+  }
